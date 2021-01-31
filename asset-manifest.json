@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/keep-clone-reactJS/static/js/main.734d2caf.chunk.js",
+    "main.js.map": "/keep-clone-reactJS/static/js/main.734d2caf.chunk.js.map",
+    "runtime-main.js": "/keep-clone-reactJS/static/js/runtime-main.548f62a1.js",
+    "runtime-main.js.map": "/keep-clone-reactJS/static/js/runtime-main.548f62a1.js.map",
+    "static/js/2.78bd790b.chunk.js": "/keep-clone-reactJS/static/js/2.78bd790b.chunk.js",
+    "static/js/2.78bd790b.chunk.js.map": "/keep-clone-reactJS/static/js/2.78bd790b.chunk.js.map",
+    "index.html": "/keep-clone-reactJS/index.html",
+    "precache-manifest.231281abc8492b9879343b815f11bc65.js": "/keep-clone-reactJS/precache-manifest.231281abc8492b9879343b815f11bc65.js",
+    "service-worker.js": "/keep-clone-reactJS/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.548f62a1.js",
+    "static/js/2.78bd790b.chunk.js",
+    "static/js/main.734d2caf.chunk.js"
+  ]
+}
