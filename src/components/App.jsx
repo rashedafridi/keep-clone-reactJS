@@ -5,7 +5,7 @@ import Note from "./Note";
 import Footer from "./Footer";
 
 import CreateArea from "./CreateArea";
-
+const ServerURL='https://keep-clone-backend.herokuapp.com/articles'
 function App() {
   const [notes, setNotes] = useState([]);
 
@@ -18,7 +18,7 @@ function App() {
 
   });
   useEffect(()=>{
-    axios.get( 'http://localhost:4000/articles/' )
+    axios.get( ServerURL )
           .then( response => {
               const posts = response.data;
               console.log(response);
@@ -51,7 +51,7 @@ function App() {
       data.append('title',newNote.title);
       data.append('content',newNote.content);
       console.log(singleNote._id);
-      axios.patch('http://localhost:4000/articles/'+singleNote._id, data)
+      axios.patch(ServerURL+singleNote._id, data)
         .then(response => {
             console.log(response);
         })
@@ -79,7 +79,7 @@ function App() {
       data.append('content',newNote.content);
 
       console.log("[post]",newNote.title,newNote.content)
-      axios.post('http://localhost:4000/articles/', data)
+      axios.post(ServerURL, data)
         .then(response => {
             console.log(response);
         })
@@ -100,7 +100,7 @@ function App() {
       });
     });
 
-    axios.delete('http://localhost:4000/articles/' + notes[id]._id )
+    axios.delete(ServerURL + notes[id]._id )
             .then(response => {
                 console.log(response);
             });
