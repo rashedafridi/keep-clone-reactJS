@@ -5,11 +5,13 @@ import Zoom from "@material-ui/core/Zoom";
 
 function CreateArea(props) {
   const [isExpanded, setExpanded] = useState(false);
+  const [flag, setflag] = useState(false);
 
   const [note, setNote] = useState({
-    title: "",
-    content: ""
+    title: props.title,
+    content: props.content
   });
+
 
   function handleChange(event) {
     const { name, value } = event.target;
@@ -28,7 +30,17 @@ function CreateArea(props) {
       title: "",
       content: ""
     });
+    setflag(false);
     event.preventDefault();
+  }
+  if (props.title !== "" && flag === false)
+  {
+    setNote({
+      title: props.title,
+      content: props.content
+    });
+    setflag(true);
+    //props.editmode = false
   }
 
   function expand() {
