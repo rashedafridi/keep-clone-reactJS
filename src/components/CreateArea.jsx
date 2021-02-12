@@ -38,6 +38,7 @@ function CreateArea(props) {
     setNote({
       title: props.title,
       content: props.content
+      
     });
     setflag(true);
     //props.editmode = false
