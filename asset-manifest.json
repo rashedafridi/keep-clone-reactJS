@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/keep-clone-reactJS/static/js/main.6b708193.chunk.js",
-    "main.js.map": "/keep-clone-reactJS/static/js/main.6b708193.chunk.js.map",
+    "main.js": "/keep-clone-reactJS/static/js/main.fc86d494.chunk.js",
+    "main.js.map": "/keep-clone-reactJS/static/js/main.fc86d494.chunk.js.map",
     "runtime-main.js": "/keep-clone-reactJS/static/js/runtime-main.548f62a1.js",
     "runtime-main.js.map": "/keep-clone-reactJS/static/js/runtime-main.548f62a1.js.map",
-    "static/js/2.063483c1.chunk.js": "/keep-clone-reactJS/static/js/2.063483c1.chunk.js",
-    "static/js/2.063483c1.chunk.js.map": "/keep-clone-reactJS/static/js/2.063483c1.chunk.js.map",
+    "static/js/2.d64fcd00.chunk.js": "/keep-clone-reactJS/static/js/2.d64fcd00.chunk.js",
+    "static/js/2.d64fcd00.chunk.js.map": "/keep-clone-reactJS/static/js/2.d64fcd00.chunk.js.map",
     "index.html": "/keep-clone-reactJS/index.html",
-    "precache-manifest.4bd5caf424c419f3c62e3edfed1dd25b.js": "/keep-clone-reactJS/precache-manifest.4bd5caf424c419f3c62e3edfed1dd25b.js",
+    "precache-manifest.576da37656aeea6d82423e005b806c6c.js": "/keep-clone-reactJS/precache-manifest.576da37656aeea6d82423e005b806c6c.js",
     "service-worker.js": "/keep-clone-reactJS/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.548f62a1.js",
-    "static/js/2.063483c1.chunk.js",
-    "static/js/main.6b708193.chunk.js"
+    "static/js/2.d64fcd00.chunk.js",
+    "static/js/main.fc86d494.chunk.js"
   ]
 }
