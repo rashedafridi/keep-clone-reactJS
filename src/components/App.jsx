@@ -5,7 +5,8 @@ import Note from "./Note";
 import Footer from "./Footer";
 
 import CreateArea from "./CreateArea";
-const ServerURL='https://keep-clone-backend.herokuapp.com/articles'
+const ServerURL='https://keep-clone-backend.herokuapp.com/articles/'
+// const ServerURL='http://localhost:4000/articles/'
 function App() {
   const [notes, setNotes] = useState([]);
 
